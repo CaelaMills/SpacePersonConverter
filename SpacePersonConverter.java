@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 
 // Caela Mills
-// 12/01/23
+// 12/02/23
 // Since Morris Code uses two symbols - dots and dashes
 // I am using the symbols "$" and "#" and "!"
 
