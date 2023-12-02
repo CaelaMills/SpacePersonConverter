@@ -6,15 +6,15 @@ import java.util.Scanner;
 
 
 // Caela Mills
-// 11/30/23
+// 12/01/23
 // Since Morris Code uses two symbols - dots and dashes
-// I am using the symbols "$" and ":" and ")" because $ (money) makes me :) (happy)
+// I am using the symbols "$" and "#" and "!"
 
 
 public class SpacePersonConverter {
 
 
-    private static final String SPACE_PERSON_ALPHABET = "$:)";
+    private static final String SPACE_PERSON_ALPHABET = "$#!";
 
     private static final int CAESAR_SHIFT = 5;
 
