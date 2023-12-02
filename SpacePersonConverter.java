@@ -16,7 +16,7 @@ public class SpacePersonConverter {
 
     private static final String SPACE_PERSON_ALPHABET = "$#!";
 
-    private static final int CAESAR_SHIFT = 5;
+    private static final int CAESAR_SHIFT = 5; // The key is a positive 5
 
 
     public static void main(String[] args) {
@@ -40,12 +40,14 @@ public class SpacePersonConverter {
         System.out.println("\nConversion to Space Person String: " + spacePersonString);
 
 
-        // Display the SHA-256 hash
-        String sha256Hash = calculateSHA256(englishString);
-        System.out.println("\nSHA-256 Hash for English String: " + sha256Hash);
-
-        sha256Hash = calculateSHA256(spacePersonString);
+        // Display the SHA-256 hash for the Space String
+        String sha256Hash = calculateSHA256(spacePersonString);
         System.out.println("\nSHA-256 Hash for Space Person: " + sha256Hash);
+
+        // Display the SHA-256 hash for the English String
+        // Just in case you wanted to
+//        sha256Hash = calculateSHA256(englishString);
+//        System.out.println("\nSHA-256 Hash for English String: " + sha256Hash);
 
 
         // Apply the Caesar cipher with a 5-character shift
