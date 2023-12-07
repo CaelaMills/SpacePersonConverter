@@ -24,14 +24,10 @@ SpacePersonConverter is a utility that allows users to convert English strings t
 
 ## Usage
 
-**Clone the Repository:**
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/SpacePersonConverter.git
    or cd SpacePersonConverter then javac SpacePersonConverter.java then java SpacePersonConverter
-
-1. **For Bash:**
-javac SpacePersonConverter.java
-java SpacePersonConverter
 
 2. **When using a VM:**
    Follow the Prompts -
