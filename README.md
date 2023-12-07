@@ -24,13 +24,17 @@ SpacePersonConverter is a utility that allows users to convert English strings t
 
 ## Usage
 
-1. **Clone the Repository:**
+**Clone the Repository:**
    ```bash
    git clone https://github.com/your-username/SpacePersonConverter.git
    or cd SpacePersonConverter then javac SpacePersonConverter.java then java SpacePersonConverter
 
+1. **For Bash:**
+javac SpacePersonConverter.java
+java SpacePersonConverter
+
 2. **When using a VM:**
-   Follow the Prompts:
+   Follow the Prompts -
    Enter an English string when prompted.
    View the Space Person conversion, SHA-256 hash, Caesar cipher, and brute force results.
 
